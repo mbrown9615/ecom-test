@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  height: 150px;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.store {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(82, 202, 27);
+}
+
+.productPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 25rem;
+  height: 15rem;
+  background-color: rgb(40, 141, 172);
+  margin: 5px;
+}
+
+.productImg {
+  width: 100%;
+  height: 75%;
+}
+
+
+
+.cart {
+  width: 100%;
+  height: auto;
+  background-color: rgb(105, 48, 180);
+}
